@@ -19,6 +19,7 @@
         <module>distributed</module>
         <module>cs</module>
         <module>mapstruct</module>
+        <module>cloud</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -48,6 +49,8 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
+
     <dependencyManagement>
         <dependencies>
             <dependency>
